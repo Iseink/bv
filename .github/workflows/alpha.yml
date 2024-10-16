@@ -10,7 +10,7 @@ jobs:
     name: Build Alpha Apk
     runs-on: macos-latest
     if: github.repository == 'iseink/bv'
-
+ 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
